@@ -1,0 +1,5 @@
+admin: '{{ vault_admin }}'
+ansible_user: '{{ admin }}'
+admin_password: '{{vault_admin_password}}'
+admin_email: '{{ vault_admin_email }}'
+certbot_webroot: '/home/{{ admin_user }}'
